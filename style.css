@@ -1,0 +1,90 @@
+*{
+    margin: 0%;
+    padding: 0;
+    outline: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.banner-container{
+    background-image: url(./images/donation4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.banner-section{
+    width: 75%;
+    margin: 0 auto;
+    padding: 5% 6%;
+    color: #fff;
+}
+
+.banner-section h1{
+    font-size: 4rem;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+    padding: 40px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.banner-description{
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 0 8%;
+    text-align: center;
+}
+.banner-section button{
+    text-align: center;
+}
+.link-btn{
+    text-decoration: none;
+    
+}
+
+
+.donate-section {
+    text-align: center;
+    margin: 5% 9%;
+}
+
+.description-donate h2{
+    font-size: 2.5rem;
+    font-weight: 900;
+    padding: 3% 5%;
+}
+.flex-item{
+    display: flex;
+}
+
+.donate-amount-card{
+    margin: 5% auto;
+}
+.card {
+    background-color: rgb(247, 234, 234);
+    width: 14%;
+    height: 95px;
+    padding: 20px;
+    margin-right: 30px;
+}
+.card p {
+    text-align: center;
+    padding: 20px;
+    font-size: 2rem;
+    font-weight: 800;
+    padding-left: 0;
+    color: gray;
+}
+#card-border{
+    border: 2px solid red;
+    border-radius: 3%;
+}
+.red-color{
+    color: red;
+}
+
+.amount-others{
+    text-align: center;
+}
