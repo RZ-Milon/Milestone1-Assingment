@@ -7,6 +7,32 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+.link-btn{
+	background-image: linear-gradient(orange, green);
+    text-decoration: none;
+	font-size : 1.2rem;
+	color : #fff;
+	padding : 10px 25px;
+	border : none;
+	border-radius: 3%;
+	font-weight: bold;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+}
+
+.flex-item{
+    display: flex;
+}
+
+.width-half{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+
+/*------------------------Banner design start---------------------*/
 .banner-container{
     background-image: url(./images/donation4.jpg);
     background-repeat: no-repeat;
@@ -15,8 +41,8 @@ body{
 }
 
 .banner-section{
-    width: 75%;
-    margin: 0 auto;
+    text-align: center;
+    margin: 0% 9%;
     padding: 5% 6%;
     color: #fff;
 }
@@ -31,20 +57,18 @@ body{
 }
 
 .banner-description{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     text-align: center;
     padding: 0 8%;
     text-align: center;
 }
-.banner-section button{
-    text-align: center;
-}
-.link-btn{
-    text-decoration: none;
-    
-}
+/*------------------------Banner design end---------------------*/
 
 
+
+
+
+/*------------------------Donation card design start---------------------*/
 .donate-section {
     text-align: center;
     margin: 5% 9%;
@@ -55,13 +79,11 @@ body{
     font-weight: 900;
     padding: 3% 5%;
 }
-.flex-item{
-    display: flex;
-}
 
 .donate-amount-card{
     margin: 5% auto;
 }
+
 .card {
     background-color: rgb(247, 234, 234);
     width: 14%;
@@ -69,6 +91,7 @@ body{
     padding: 20px;
     margin-right: 30px;
 }
+
 .card p {
     text-align: center;
     padding: 20px;
@@ -81,10 +104,86 @@ body{
     border: 2px solid red;
     border-radius: 3%;
 }
-.red-color{
-    color: red;
-}
 
-.amount-others{
+.amount-type{
+    font-size: 1.2rem;
+    color: gray;
+    padding : 10px 20px;
+    border : none;
     text-align: center;
 }
+/*------------------------Donation card design end---------------------*/
+
+
+
+
+/*------------------------Donate plan design start---------------------*/
+.donate-plan-section{
+    text-align: center;
+    margin: 5% 9%;
+}
+
+.donate-plan{
+
+}
+.donate-plan h3{
+    font-size: 2.5rem;
+    font-weight: 900;
+    padding: 3% 5%;
+}
+.donate-plan p{
+    font-size: 1.2rem;
+    padding: 1% 10%;
+    margin-bottom: 10px;
+}
+
+.donate-plan-card{
+    margin: 5% 7%;
+}
+
+.plan-card{
+    width: 30%;
+    height: 250px;
+    background-color: #E8EAED;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.icon img{
+    width: 30px;
+    height: 35px;
+    padding: 20px;
+    margin-top: 5%;
+}
+.plan-card h4{
+    margin: 5% 0;
+    font-size: 1.3rem;
+    padding: 5% 0%;
+}
+.plan-card{
+    font-size: 1rem;
+    padding: 5% 2%;
+    text-align: justify;
+}
+/*------------------------Donate plan design end---------------------*/
+
+
+
+/*------------------------Donate blog design start---------------------*/
+.donate-blog{
+    margin: 5% 9%; 
+}
+
+.donate-articale{
+    padding: 2% 3%;
+}
+
+
+
+
+
+
+
+
+/*------------------------Donate blog design end---------------------*/
