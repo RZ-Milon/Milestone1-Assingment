@@ -27,8 +27,6 @@ body{
 .width-half{
     width: 40%;
     float: left;
-    margin-left: 5%;
-    padding-left: 2%;
 }
 
 
@@ -123,9 +121,6 @@ body{
     margin: 5% 9%;
 }
 
-.donate-plan{
-
-}
 .donate-plan h3{
     font-size: 2.5rem;
     font-weight: 900;
@@ -172,18 +167,100 @@ body{
 
 /*------------------------Donate blog design start---------------------*/
 .donate-blog{
-    margin: 5% 9%; 
+    margin: 7% 9%; 
 }
 
-.donate-articale{
-    padding: 2% 3%;
+.articale{
+    padding: 5%;
 }
-
-
-
-
-
-
-
-
+.articale h5{
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 5% 0;
+}
+.articale p{
+    font-size: 1.1rem;
+    line-height: 2rem;
+}
+.blog-image img{
+    width: 100%;
+    height: 400px;
+    padding: 2%;
+}
 /*------------------------Donate blog design end---------------------*/
+
+/*------------------------Blog self---------------------*/
+.self-articale{
+    float: left;
+    padding: 5%;
+}
+.self-articale h5{
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 5% 0;
+}
+.self-blog-image img{
+    float: right;
+}
+
+
+
+/*------------------------Form section design start---------------------*/
+.subscribe-part {
+    margin: 10% 25%; 
+    text-align: center;
+}
+.subscribe-title{
+    padding: 5% 7%;
+}
+.subscribe-title h6{
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 5% 0;
+}
+.subscribe-title p{
+    font-size: 1.1rem;
+    line-height: 2rem;
+    padding-bottom: 40px;
+}
+.subscribe-btn{
+    background-color: #E8EAED;
+    height: 200px;
+}
+.subs-btn {
+    margin-top: 12%;
+    border: none;
+    font-size: 1.1rem;
+    background-color: aqua;
+    padding: 10px 13px;
+    border-radius: 4%;
+}
+#hit-btn{
+    background-color: lightcoral;
+    margin-left: -5px;
+    width: 20%;
+    color: #fff;
+    padding: 10px 13px;
+    cursor: pointer;
+}
+/*------------------------Form section design end---------------------*/
+
+
+/*------------------------Footer design start---------------------*/
+
+footer{
+    background-color: rgb(63, 54, 54);
+}
+footer h6{
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 2% 0;
+    color: rgb(170, 53, 53);
+    text-align: center;
+}
+footer p{
+    text-align: center;
+    color: #fff;
+    padding-bottom: 3%;
+}
+/*------------------------Footer design end---------------------*/
