@@ -213,7 +213,7 @@ body{
 .subscribe-title{
     padding: 5% 7%;
 }
-.subscribe-title h6{
+.subscribe-title h5{
     font-size: 2.5rem;
     font-weight: bold;
     padding: 5% 0;
@@ -246,8 +246,8 @@ body{
 /*------------------------Form section design end---------------------*/
 
 
-/*------------------------Footer design start---------------------*/
 
+/*------------------------Footer design start---------------------*/
 footer{
     background-color: rgb(63, 54, 54);
 }
