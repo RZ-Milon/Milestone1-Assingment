@@ -54,9 +54,8 @@ body{
     padding-top: 30px;
 }
 
-.banner-description{
+.banner-description {
     font-size: 1.3rem;
-    text-align: center;
     padding: 0 8%;
     text-align: center;
 }
@@ -189,20 +188,23 @@ body{
 }
 /*------------------------Donate blog design end---------------------*/
 
+
 /*------------------------Blog self---------------------*/
 .self-articale{
-    float: left;
     padding: 5%;
 }
 .self-articale h5{
-    font-size: 2.5rem;
+    font-size: 2.1rem;
     font-weight: bold;
     padding: 5% 0;
 }
 .self-blog-image img{
-    float: right;
+    width: 100%;
+    height: 220px;
+    padding: 2%;
+    border: 1px solid #000;
 }
-
+/*------------------------Blog self---------------------*/
 
 
 /*------------------------Form section design start---------------------*/
@@ -216,7 +218,7 @@ body{
 .subscribe-title h5{
     font-size: 2.5rem;
     font-weight: bold;
-    padding: 5% 0;
+    padding: 3% 0;
 }
 .subscribe-title p{
     font-size: 1.1rem;
@@ -261,6 +263,6 @@ footer h6{
 footer p{
     text-align: center;
     color: #fff;
-    padding-bottom: 3%;
+    padding-bottom: 2%;
 }
 /*------------------------Footer design end---------------------*/
